@@ -11,7 +11,7 @@ namespace TreinaCorp.Repository
     public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
-
+  
         public DbSet<Aula> Aulas { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Curso> Cursos { get; set; }

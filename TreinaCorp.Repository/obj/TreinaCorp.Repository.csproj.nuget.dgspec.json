@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\Documents\\ProjetosDotnet\\TreinaCorp\\TreinaCorp.Repository\\TreinaCorp.Repository.csproj": {}
+    "C:\\Angular\\TreinaCorp\\TreinaCorp.Repository\\TreinaCorp.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\Documents\\ProjetosDotnet\\TreinaCorp\\TreinaCorp.Domain\\TreinaCorp.Domain.csproj": {
+    "C:\\Angular\\TreinaCorp\\TreinaCorp.Domain\\TreinaCorp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\Documents\\ProjetosDotnet\\TreinaCorp\\TreinaCorp.Domain\\TreinaCorp.Domain.csproj",
+        "projectUniqueName": "C:\\Angular\\TreinaCorp\\TreinaCorp.Domain\\TreinaCorp.Domain.csproj",
         "projectName": "TreinaCorp.Domain",
-        "projectPath": "C:\\Users\\mathe\\Documents\\ProjetosDotnet\\TreinaCorp\\TreinaCorp.Domain\\TreinaCorp.Domain.csproj",
-        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\Documents\\ProjetosDotnet\\TreinaCorp\\TreinaCorp.Domain\\obj\\",
+        "projectPath": "C:\\Angular\\TreinaCorp\\TreinaCorp.Domain\\TreinaCorp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Angular\\TreinaCorp\\TreinaCorp.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +29,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +40,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -54,21 +55,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mathe\\Documents\\ProjetosDotnet\\TreinaCorp\\TreinaCorp.Repository\\TreinaCorp.Repository.csproj": {
+    "C:\\Angular\\TreinaCorp\\TreinaCorp.Repository\\TreinaCorp.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\Documents\\ProjetosDotnet\\TreinaCorp\\TreinaCorp.Repository\\TreinaCorp.Repository.csproj",
+        "projectUniqueName": "C:\\Angular\\TreinaCorp\\TreinaCorp.Repository\\TreinaCorp.Repository.csproj",
         "projectName": "TreinaCorp.Repository",
-        "projectPath": "C:\\Users\\mathe\\Documents\\ProjetosDotnet\\TreinaCorp\\TreinaCorp.Repository\\TreinaCorp.Repository.csproj",
-        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\Documents\\ProjetosDotnet\\TreinaCorp\\TreinaCorp.Repository\\obj\\",
+        "projectPath": "C:\\Angular\\TreinaCorp\\TreinaCorp.Repository\\TreinaCorp.Repository.csproj",
+        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Angular\\TreinaCorp\\TreinaCorp.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,10 +84,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\mathe\\Documents\\ProjetosDotnet\\TreinaCorp\\TreinaCorp.Domain\\TreinaCorp.Domain.csproj": {
-                "projectPath": "C:\\Users\\mathe\\Documents\\ProjetosDotnet\\TreinaCorp\\TreinaCorp.Domain\\TreinaCorp.Domain.csproj"
+              "C:\\Angular\\TreinaCorp\\TreinaCorp.Domain\\TreinaCorp.Domain.csproj": {
+                "projectPath": "C:\\Angular\\TreinaCorp\\TreinaCorp.Domain\\TreinaCorp.Domain.csproj"
               }
             }
           }
@@ -96,13 +99,22 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0, )"
             }
@@ -122,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

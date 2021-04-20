@@ -13,6 +13,7 @@ namespace TreinaCorp.Domain
         public DateTime DataCadastro { get; set; }
         public int? CursoId { get; set; }
         public virtual Curso Curso { get; set; }
-        public List<Pergunta> Perguntas { get; set; }
+        public List<Feedback> Feedbacks { get; set; }
     }
+  
 }

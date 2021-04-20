@@ -10,3 +10,5 @@ C:\Users\mathe\Documents\ProjetosDotnet\TreinaCorp\TreinaCorp.Repository\obj\Deb
 C:\Users\mathe\Documents\ProjetosDotnet\TreinaCorp\TreinaCorp.Repository\obj\Debug\netcoreapp3.1\TreinaCorp.Repository.csproj.CopyComplete
 C:\Users\mathe\Documents\ProjetosDotnet\TreinaCorp\TreinaCorp.Repository\obj\Debug\netcoreapp3.1\TreinaCorp.Repository.dll
 C:\Users\mathe\Documents\ProjetosDotnet\TreinaCorp\TreinaCorp.Repository\obj\Debug\netcoreapp3.1\TreinaCorp.Repository.pdb
+C:\Angular\TreinaCorp\TreinaCorp.Repository\obj\Debug\netcoreapp3.1\TreinaCorp.Repository.dll
+C:\Angular\TreinaCorp\TreinaCorp.Repository\obj\Debug\netcoreapp3.1\TreinaCorp.Repository.pdb

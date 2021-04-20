@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TreinaCorp.Repository",
+    "\\TreinaCorp.Repository\\Classes",
+    "\\TreinaCorp.Repository\\Interfaces",
+    "\\TreinaCorpAPI"
+  ],
+  "SelectedNode": "\\TreinaCorpAPI\\Startup.cs",
+  "PreviewInSolutionExplorer": false
+}
