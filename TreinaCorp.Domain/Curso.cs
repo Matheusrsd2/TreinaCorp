@@ -13,6 +13,6 @@ namespace TreinaCorp.Domain
         public string Imagem { get; set; }
         public int CategoriaId { get; set; }
         public Categoria categoria { get; set; }
-        public virtual ICollection<Aula> Aulas { get; set; }
+        public virtual List<Aula> Aulas { get; set; }
     }
 }

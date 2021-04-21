@@ -19,7 +19,8 @@ namespace TreinaCorp.Repository
         public DbSet<Resposta> Respostas { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<UsuarioCurso> UsuriosCursos { get; set; }
-        public DbSet<Questionario> Questionario { get; set; }
+        public DbSet<Avaliacao> Avaliacoes { get; set; }
+        public DbSet<Feedback> Feedbacks { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

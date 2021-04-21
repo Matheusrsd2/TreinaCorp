@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -10,6 +11,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TreinaCorp.Repository;
+using TreinaCorp.Repository.Classes;
+using TreinaCorp.Repository.Interfaces;
 
 namespace TreinaCorpAPI
 {
@@ -25,8 +29,10 @@ namespace TreinaCorpAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAppDbContext<Context>(options => options.UseSqlServer(Configuration.GetConnectionString("ConexaoDb")));
-            services.AddControllers();
+            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("TreinaCorpDB")));
+            services.AddScoped<CursoRepository>();
+            services.AddControllers().AddNewtonsoftJson();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

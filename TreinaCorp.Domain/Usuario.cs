@@ -12,7 +12,7 @@ namespace TreinaCorp.Domain
         public string Profissao { get; set; }
         public string Cpf { get; set; }
 
-        public enum TipoUsuario
+        public enum PermissaoUsuario
         {
             Colaborador,
             Administrador,
