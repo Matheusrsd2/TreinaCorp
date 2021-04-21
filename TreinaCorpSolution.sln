@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreinaCorp.Domain", "Treina
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreinaCorp.Repository", "TreinaCorp.Repository\TreinaCorp.Repository.csproj", "{F377E979-3ABA-4B71-936D-8D47FC533E7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaCorpAPI", "TreinaCorpAPI\TreinaCorpAPI.csproj", "{F9060C97-E1C9-4F0B-9C4A-6CB1BA3BED4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreinaCorpAPI", "TreinaCorpAPI\TreinaCorpAPI.csproj", "{F9060C97-E1C9-4F0B-9C4A-6CB1BA3BED4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A34FFC98-8191-4B5D-8170-385598019671}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
