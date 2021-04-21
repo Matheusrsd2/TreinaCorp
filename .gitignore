@@ -1,0 +1,6 @@
+./TreinaCorp.Domain/bin
+./TreinaCorp.Domain/obj
+./TreinaCorp.Repository/bin
+./TreinaCorp.Repository/obj
+./TreinaCorpAPI/bin
+./TreinaCorpAPI/obj
