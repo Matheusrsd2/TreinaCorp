@@ -20,5 +20,9 @@
     <ProjectReference Include="..\TreinaCorp.Repository\TreinaCorp.Repository.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Resources\Images\" />
+  </ItemGroup>
+
 
 </Project>
