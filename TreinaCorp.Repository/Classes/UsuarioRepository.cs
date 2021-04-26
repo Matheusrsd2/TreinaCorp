@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
@@ -9,6 +10,7 @@ namespace TreinaCorp.Repository.Classes
 {
     public class UsuarioRepository : Repository<Usuario>
     {
+     
         private readonly AppDbContext _context;
         public UsuarioRepository(AppDbContext context) : base(context)
         {
@@ -54,6 +56,18 @@ namespace TreinaCorp.Repository.Classes
 
                 return usuarioLogado;   
             }
+        }
+
+        public EntityEntry<UsuarioCurso> InscreverUsuarioCurso(int idUsuario, int idCurso)
+        {
+            UsuarioCurso model = new UsuarioCurso();
+            model.UsuarioId = idUsuario;
+            model.CursoId = idCurso;
+            var results = _context.UsuriosCursos.Add(model);
+            _context.SaveChanges();
+            return results;
+            
+            
         }
     }
 }

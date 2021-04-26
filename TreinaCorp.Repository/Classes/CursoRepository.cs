@@ -23,7 +23,8 @@ namespace TreinaCorp.Repository.Classes
             IQueryable<Curso> curso = _context.Cursos.Where(x => x.Id == id).Include(x => x.Aulas);
 
             return curso;
-
         }
+
+
     }
 }
