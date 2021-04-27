@@ -39,7 +39,7 @@ namespace TreinaCorpAPI.Controllers
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            Curso curso = _repo.GetById(id);
+            IQueryable<Curso> curso = _repo.GetCursoAndAulas(id);
             return Ok(curso);
         }
         [HttpPost] 
